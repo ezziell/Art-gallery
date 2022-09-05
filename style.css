@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 body{
     
     font-family: 'DM Sans', sans-serif;
@@ -26,17 +29,105 @@ body{
     height: 842px;
     position: absolute;
     color: white;
+    margin: 22px 0 0 88px;
 }
-
+.main-title{
+    font-size: 1.5rem;
+    font-family: 'Libre Bodoni', serif;
+    font-weight: 100;
+}
+.subtitle{
+    text-transform: uppercase;
+    font-size: 1rem;
+    position: relative;
+    top: 248px;
+    left: 348px;
+    font-weight: 100;
+}
+.title{
+    font-size: 3.4rem;
+    font-weight: 100;
+    width: 350px;
+    line-height: 58px;
+    position: relative;
+    top: 238px;
+    left: 268px;
+    text-align: center;
+}
+.fake-btn{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    height: 38px;
+    padding: 12px 94px 12px 94px;
+    border-radius: 22px;
+    font-size: 0.9rem;
+}
+.fake-btn.one{
+    position: relative;
+    top: 282px;
+    left: 308px;
+}
+.fake-btn:link{
+    text-decoration: none;
+}
 .div-two{
     z-index: 2;
     background-color: black;
     height: 822px;
 }
+.side-h2{
+    font-size: 2.8rem;
+    font-weight: 100;
+    width: 290px;
+    line-height: 48px;
+    position: relative;
+    top: 100px;
+    left: 242px;
+}
+.fake-btn.two{
+    position: relative;
+    left: 242px;
+    top: 142px;
+}
+.figure2 img{
+    height: 600px;
+    width: 500px;
+    position: relative;
+    left: 800px;
+    object-fit: cover;
+    bottom: 142px;
+}
 .div-three{
     height: 822px;
     z-index: 2;
     background-color: black;
+    display: flex;
+}
+.figure3 img{
+    height: 600px;
+    width: 500px;
+    position: relative;
+    left: 100px;
+    object-fit: cover;
+    top: 62px;
+}
+.article-text{
+    font-size: 1rem;
+    font-weight: 100;
+    width: 280px;
+    position: relative;
+    left: 392px;
+    top: 182px;
+}
+.small-title{
+    font-weight: 100;
+    font-size: 2rem;
+    position: relative;
+    top: 372px;
+    width: 350px;
+    line-height: 34px;
+    left: 109px;
 }
 .background-four{
     z-index: 1;

@@ -62,6 +62,7 @@ body{
     padding: 12px 94px 12px 94px;
     border-radius: 22px;
     font-size: 0.9rem;
+    position: relative;
 }
 .fake-btn.one{
     position: relative;
@@ -77,11 +78,13 @@ body{
     height: 822px;
 }
 .side-h2{
+    position: relative;
+    line-height: 48px;
     font-size: 2.8rem;
     font-weight: 100;
+}
+.side-h2.two{   
     width: 290px;
-    line-height: 48px;
-    position: relative;
     top: 100px;
     left: 242px;
 }
@@ -104,29 +107,35 @@ body{
     background-color: black;
     display: flex;
 }
-.figure3 img{
+img{
     height: 600px;
     width: 500px;
+    object-fit: cover;
+}
+.figure3 img{
     position: relative;
     left: 100px;
-    object-fit: cover;
     top: 62px;
 }
 .article-text{
     font-size: 1rem;
     font-weight: 100;
-    width: 280px;
     position: relative;
+}
+.article-text.three{
+    width: 280px;
     left: 392px;
     top: 182px;
 }
 .small-title{
     font-weight: 100;
     font-size: 2rem;
-    position: relative;
+    position: relative;  
+    line-height: 34px;
+}
+.small-title.three{
     top: 372px;
     width: 350px;
-    line-height: 34px;
     left: 109px;
 }
 .background-four{
@@ -136,6 +145,10 @@ body{
     background-size: cover;
     height: 842px;
     background-image: url("./4.jpg");
+}
+.small-title.four{
+    width: 280px;
+    left: 572px;
 }
 .div-four{
     height: 822px;
@@ -147,10 +160,92 @@ body{
     height: 822px;
     z-index: 2;
     background-color: black;
+    display: flex;
+}
+.figure5{
+    position: relative;
+    top: 48px;
+    left: 112px;
+}
+.side-h2.five{
+    width: 400px;
+    text-align: center;
+    left: 202px;
+    top: 168px;
+}
+.article-text.five{
+    width: 300px;
+    left: 244px;
+    top: 162px;
+    text-align: center;
+}
+.fake-btn.five{
+    top: 202px;
+    left: 260px;
 }
 .div-six{
     height: 822px;
+    margin-left: 192px;
+    display: flex;
+}
+.text-container{
+    position: relative;
+    bottom: 10px;
+}
+.small-title{
+    width: 200px;
+}
+.p-text{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    top: 14px;
+    position: relative;
+}
+.article-text.six{
+    width: 550px;
+    margin-bottom: 42px;
+}
+.figure5{
+    margin-left: 200px;
+}
+.figure5 img{
+    width: 600px;
 }
 .div-seven{
     height: 822px;
+    margin-left: 128px;
+    margin-top: 62px;
+}
+.social-div{
+    margin-top: 78px;
+}
+.location-div{
+    display: flex;
+}
+.article-text.mail{
+    font-weight: bold;
+    position: absolute;
+    left: 888px;
+}
+.small-title.ask{
+    text-transform: uppercase;
+}
+.article-text.info{
+    line-height: 12px;
+}
+.p-text.info{
+    margin-bottom: 42px;
+}
+.article-text.info1{
+    width: 170px;
+    position: relative;
+    top: 68px;
+    right: 142px;
+    margin-right: 42px;
+}
+.small-title.final{
+    width: 500px;
+    position: relative;
+    bottom: 342px;
+    left: 484px;
 }

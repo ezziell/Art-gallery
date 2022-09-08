@@ -1,8 +1,12 @@
 
     html {
         scroll-behavior: smooth;
+        overflow-x: unset;
+        min-width: 425px;
+        max-width: 1440px;
       }
     body{
+        
         font-family: 'DM Sans', sans-serif;
         font-size: 62.5%;
         border-bottom: none;
@@ -22,7 +26,9 @@
     .background-one{
         z-index: 1;
         -webkit-filter: blur(4px);
+        background-repeat: no-repeat;
         background-size: cover;
+        height: 842px;
         background-image: url("https://images.pexels.com/photos/161154/stained-glass-spiral-circle-pattern-161154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     }
     .div-one{

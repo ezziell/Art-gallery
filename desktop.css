@@ -1,8 +1,8 @@
-
-    html {
+   html {
         scroll-behavior: smooth;
       }
     body{
+        
         font-family: 'DM Sans', sans-serif;
         font-size: 62.5%;
         border-bottom: none;
@@ -11,18 +11,17 @@
         box-sizing: border-box;
         background-color: black;
         color: white;
-        display: flex;
-        overflow-x: hidden;
     }
     .all-container{
         display: flex;
         flex-direction: column;
-        z-index: 0;
     }
     .background-one{
         z-index: 1;
         -webkit-filter: blur(4px);
+        background-repeat: no-repeat;
         background-size: cover;
+        height: 842px;
         background-image: url("https://images.pexels.com/photos/161154/stained-glass-spiral-circle-pattern-161154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     }
     .div-one{
@@ -94,14 +93,11 @@
         left: 242px;
         top: 142px;
     }
-    .figure2{
-        right: 100px;
-        position: relative;
-    }
     .figure2 img{
         height: 600px;
         width: 500px;
         position: relative;
+        left: 800px;
         object-fit: cover;
         bottom: 142px;
     }
@@ -128,7 +124,7 @@
     }
     .article-text.three{
         width: 280px;
-        left: 312px;
+        left: 392px;
         top: 182px;
     }
     .small-title{
@@ -138,18 +134,17 @@
         line-height: 34px;
     }
     .small-title.three{
-        top: 382px;
+        top: 372px;
         width: 350px;
-        left: 32px;
+        left: 109px;
     }
     .background-four{
-        z-index: 4;
+        z-index: 1;
         -webkit-filter: blur(4px);
         background-repeat: no-repeat;
         background-size: cover;
         height: 842px;
         background-image: url("./4.jpg");
-        min-width: 1322px;
     }
     .small-title.four{
         width: 280px;
@@ -167,26 +162,33 @@
         background-color: black;
         display: flex;
         position: relative;
+        right: 200px;
     }
     .figure5{
         position: relative;
         top: 48px;
+        left: 112px;
+    }
+    .figure6{
+        top: 48px;
+        position: relative;
+        left: 282px;
     }
     .side-h2.five{
         width: 400px;
         text-align: center;
-        left: 302px;
+        left: 202px;
         top: 168px;
     }
     .article-text.five{
         width: 300px;
-        left: 354px;
+        left: 244px;
         top: 162px;
         text-align: center;
     }
     .fake-btn.five{
         top: 202px;
-        left: 362px;
+        left: 260px;
     }
     .div-six{
         height: 822px;
@@ -196,6 +198,7 @@
     .text-container{
         position: relative;
         bottom: 10px;
+        left: 132px;
     }
     .small-title{
         width: 200px;
@@ -209,18 +212,12 @@
     .article-text.six{
         width: 550px;
         margin-bottom: 42px;
-        position: relative;
-        right: 178px;
     }
     .figure5 img{
         width: 600px;
         position: relative;
-        left: 200px;
+        left: 100px;
         top: 62px;
-    }
-    .figure6 img{
-        position: relative;
-        right: 232px;
     }
     .div-seven{
         height: 822px;
@@ -260,3 +257,4 @@
         bottom: 342px;
         left: 484px;
     }
+    

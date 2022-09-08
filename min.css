@@ -1,5 +1,4 @@
-
-    html {
+html {
         scroll-behavior: smooth;
       }
     body{
@@ -23,36 +22,40 @@
         z-index: 1;
         -webkit-filter: blur(4px);
         background-size: cover;
+        height: 788px;
+        max-width: 424px;
         background-image: url("https://images.pexels.com/photos/161154/stained-glass-spiral-circle-pattern-161154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     }
     .div-one{
         z-index: 2;
-        height: 842px;
         position: absolute;
         color: white;
         margin: 22px 0 0 88px;
     }
     .main-title{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-family: 'Libre Bodoni', serif;
         font-weight: 100;
+        position: relative;
+        right: 32px;
+        bottom: 12px;
     }
     .subtitle{
         text-transform: uppercase;
         font-size: 1rem;
         position: relative;
-        top: 248px;
-        left: 348px;
+        left: 36px;
+        top: 222px;
         font-weight: 100;
     }
     .title{
-        font-size: 3.4rem;
+        font-size: 2.4rem;
         font-weight: 100;
         width: 350px;
-        line-height: 58px;
+        line-height: 42px;
         position: relative;
-        top: 238px;
-        left: 268px;
+        top: 218px;
+        right: 52px;
         text-align: center;
     }
     .fake-btn{
@@ -68,7 +71,7 @@
     .fake-btn.one{
         position: relative;
         top: 282px;
-        left: 308px;
+        right: 16px;
     }
     .fake-btn:link{
         text-decoration: none;
@@ -85,7 +88,6 @@
         font-weight: 100;
     }
     .side-h2.two{   
-        width: 290px;
         top: 100px;
         left: 242px;
     }
@@ -99,21 +101,16 @@
         position: relative;
     }
     .figure2 img{
-        height: 600px;
-        width: 500px;
         position: relative;
         object-fit: cover;
         bottom: 142px;
     }
     .div-three{
-        height: 822px;
         z-index: 2;
         background-color: black;
         display: flex;
     }
     img{
-        height: 600px;
-        width: 500px;
         object-fit: cover;
     }
     .figure3 img{
@@ -189,7 +186,6 @@
         left: 362px;
     }
     .div-six{
-        height: 822px;
         margin-left: 102px;
         display: flex;
     }
@@ -213,7 +209,6 @@
         right: 178px;
     }
     .figure5 img{
-        width: 600px;
         position: relative;
         left: 200px;
         top: 62px;
